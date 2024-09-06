@@ -29,5 +29,5 @@ The FDA has received an international grant to provide mammography equipment and
 **Chloropleths:**
 <pre>
 </pre>
-<img src="README%20Images/certified_facilities_chloropleth.png" width="450"><img src="README%20Images/breast_cancer_risk_chloropleth.png" width="450">
+<img src="README%20Images/certified_facilities_chloropleth.png" width="425"><img src="README%20Images/breast_cancer_risk_chloropleth.png" width="425">
 <img src="README%20Images/overcapacity_chloropleth.png" width="900">
