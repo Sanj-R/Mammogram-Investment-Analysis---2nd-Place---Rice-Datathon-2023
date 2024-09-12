@@ -31,3 +31,4 @@ The FDA has received an international grant to provide mammography equipment and
 </pre>
 <img src="README%20Images/certified_facilities_chloropleth.png" width="400"><img src="README%20Images/breast_cancer_risk_chloropleth.png" width="400">
 <img src="README%20Images/overcapacity_chloropleth.png" width="900">
+**(note for the red cloropleth that the numbers are just values representing overcapacity and can only be interpreted relative to each other. They do not represent people, supplies, etc.)**
