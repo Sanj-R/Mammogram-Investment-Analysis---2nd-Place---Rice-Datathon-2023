@@ -13,16 +13,16 @@ The FDA has received an international grant to provide mammography equipment and
 [^1]: [Here](https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2010-2019/sc-est2019-agesex-civ.pdf) is the Census Dataset Layout.
 <pre>
 </pre>
-**Our Solution:** 
+**My Solution:** 
 1. The mammogram facilities dataset was messy, so I just counted the number of rows that had a cell containing a state abbreviations to <ins>determine the number of facilities in each state</ins>.
 2. Using the census data for population of each sex and age in each state, for each year from 2010-19, I <ins>computed 8,600 linear regressions to predict the size of each population in Jan. 2023</ins>.
 3. I <ins>found external [data](https://tinyurl.com/3p8zv28p)</ins> from Cancer Research UK on breast cancer rates based on sex and age.
 4. I <ins>computed a cancer risk metric for each state</ins>, which is the product of the cancer rate for a sex, age group (from step 3) and the predicted 2023 state population for that sex, age group (from step 2), all summed for each sex, age group.
-5. I finally <ins>determined the "relative overcapacity" of each state</ins> as the ratio between the cancer risk metric and the number of facilities. We ranked states by this metric.
+5. I finally <ins>determined the "relative overcapacity" of each state</ins> as the ratio between the cancer risk metric and the number of facilities. I ranked states by this metric.
 <pre>
 </pre>
 **Results:**
-- We found the most overburdened states (metrics) were South Carolina (4.34M), Washington (4.25M), Maryland (4.24M), California (4.23M), Massachusetts (3.99M).
+- I found the most overburdened states (metrics) were South Carolina (4.34M), Washington (4.25M), Maryland (4.24M), California (4.23M), Massachusetts (3.99M).
 - The most underburdened state was North Dakota (1.2M).
 <pre>
 </pre>
